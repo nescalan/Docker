@@ -56,7 +56,7 @@ When the container starts, this command executes `flask run --host=0.0.0.0`. The
 
 ---
 
-## 📦 Complete Dockerfile
+## 🚀 Build & Run Commands
 
 ```dockerfile
 FROM python:3.9-slim
