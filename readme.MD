@@ -12,6 +12,7 @@ Each project resides in its own folder:
 
 Docker/
 ├── project-01/
+│ └── (archivos del proyecto)
 ├── project-02/
 ├── project-03/
 ├── ...
@@ -21,6 +22,14 @@ Docker/
 ---
 
 ## 📋 Projects Index
+
+🔲 Project 01: nginx web server with dokcer
+Status: ⬜ Finished
+
+🎯 Objective
+The goal is to set up an Nginx web server using Docker, accessible from a web browser without affecting the host, and to be able to easily manage its container: create and run the container with a mapped name and port, verify that it's running, access it from the browser, stop it, and finally delete it. The expected result is that Nginx will function correctly, be accessible, and the container can be stopped and deleted without issues.
+
+
 
 | # | Project Name | Description |
 |---|--------------|-------------|
