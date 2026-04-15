@@ -70,3 +70,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 CMD ["flask", "run", "--host=0.0.0.0"]
+
+### 🚀 Build & Run Commands
+# Build the image
+docker build -t flask-app .
+
+# Run the container (map port 5000)
+docker run -d -p 5000:5000 --name flask-container flask-app
