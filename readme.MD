@@ -8,16 +8,7 @@ This repository contains **13 practical projects** developed as part of my Docke
 
 ## 📁 Project Structure
 
-Each project resides in its own folder:
-
-Docker/
-├── project-01/
-│ └── (archivos del proyecto)
-├── project-02/
-├── project-03/
-├── ...
-└── project-13/
-
+Each project resides in its own folder:Docker/project-01/readme.MD
 
 ---
 
