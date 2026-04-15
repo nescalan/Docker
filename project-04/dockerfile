@@ -1,0 +1,17 @@
+# 1. Use an official base image
+FROM python:3.9-slim
+
+# 2. Set the working directory inside the container
+WORKDIR /app
+
+# 3. Copy dependency file first (for layer caching)
+COPY requirements.txt .
+
+# 4. Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 5. Copy the Python application
+COPY . .
+
+# 6. Define the command to run the application
+CMD ["flask", "run","--host=0.0.0.0"]
