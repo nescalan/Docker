@@ -56,9 +56,8 @@ When the container starts, this command executes `flask run --host=0.0.0.0`. The
 
 ---
 
-## 🚀 Build & Run Commands
+## 📦 Complete Dockerfile
 
-```dockerfile
 FROM python:3.9-slim
 
 WORKDIR /app
@@ -71,7 +70,9 @@ COPY . .
 
 CMD ["flask", "run", "--host=0.0.0.0"]
 
-### 🚀 Build & Run Commands
+---
+
+## 🚀 Build & Run Commands
 # Build the image
 docker build -t flask-app .
 
