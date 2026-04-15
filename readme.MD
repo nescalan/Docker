@@ -1,7 +1,5 @@
 # 🐳 13 Docker Projects
 
-# 🐳 13 Docker Projects
-
 **Author:** Ing. Nelson González Escalante
 
 This repository contains **13 practical projects** developed as part of my Docker learning journey. The projects progress from basic to advanced, covering essential Docker concepts and real-world integration with multiple development ecosystems.
