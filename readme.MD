@@ -17,7 +17,7 @@ Each project resides in its own folder: /Docker/project-01/readme.MD
 | # | Project Name | Description |
 |---|--------------|-------------|
 | 1 | nginx Web Server | Set up an Nginx web server using Docker |
-| 2 | *To be completed* | |
+| 2 | Ubuntu Container | Start an interactive Ubuntu 20.04 container, update package lists, install nano editor, create and verify hola.txt file, then close and remove the container with no host system residues.  |
 | 3 | *To be completed* | |
 | 4 | *To be completed* | |
 | 5 | *To be completed* | |
